@@ -6,7 +6,7 @@ public class ex1 {
         m1(3);
         m1(2+3);
         ex1 d = new ex1();
-        d.m1(2,5);
+        d.m1(2,5+7);
         m1(3,6,7);
     }
     public static void m1(){
