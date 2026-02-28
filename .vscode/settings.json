@@ -1,0 +1,14 @@
+{
+    "java.project.sourcePaths": [
+        "Pattern Programs/TrianglePatterns",
+        "Pattern Programs/Practice",
+        "Pattern Programs/Patterns",
+        "Pattern Programs/PatternAssignment",
+        "Pattern Programs/Pattern2",
+        "Downcasting",
+        "CallToThisSuper",
+        "Binding",
+        "InRange"
+    ],
+    "java.debug.settings.onBuildFailureProceed": true
+}
