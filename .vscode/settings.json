@@ -5,10 +5,11 @@
         "Pattern Programs/Patterns",
         "Pattern Programs/PatternAssignment",
         "Pattern Programs/Pattern2",
+        "InRange",
         "Downcasting",
         "CallToThisSuper",
         "Binding",
-        "InRange"
+        "Abstraction"
     ],
     "java.debug.settings.onBuildFailureProceed": true
 }
