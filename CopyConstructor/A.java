@@ -17,6 +17,7 @@ public class A {
 		A a = new A(10,20);
 		A a1 = new A(a);
 		A a2 = new A(a1);
+		A a3 = new A(new A(10,23));
 		System.out.println(a.i + "\t" + a.j);
 		System.out.println(a1.i + "\t" + a1.j);
 		System.out.println(a2.i + "\t" + a2.j);

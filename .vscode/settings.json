@@ -9,7 +9,8 @@
         "Downcasting",
         "CallToThisSuper",
         "Binding",
-        "Abstraction"
+        "Abstraction",
+        "FinalKey"
     ],
     "java.debug.settings.onBuildFailureProceed": true
 }
