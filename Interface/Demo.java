@@ -10,6 +10,7 @@ public class Demo {
         f.off();//Now we can access child class properties both super and sub class properties
         f.increaseSpeed();
         f.decreaseSpeed();
+        
     }
 }
 

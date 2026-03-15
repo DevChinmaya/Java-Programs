@@ -15,5 +15,4 @@ public class Pallindrome {
         if(n==0) return m==rev;
         return isPalindrome(n/10,m,rev = (rev*10) + (n%10));
     }
-    
 }
