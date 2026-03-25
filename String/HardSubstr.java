@@ -1,4 +1,4 @@
-public class PrintRamana {
+public class HardSubstr {
     public static void main(String[] args) {
         String s="AskyEvkIplyOflyUhp";
         for(int i=0; i<s.length(); i++){
