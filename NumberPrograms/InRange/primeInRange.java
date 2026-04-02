@@ -11,7 +11,6 @@ class primeInRange{
         return isPrime(n,i+1);
             
     }
-
     public static void Range(int st,int end,int count){
         if(st>end) return;
         if(isPrime(st,2)){
