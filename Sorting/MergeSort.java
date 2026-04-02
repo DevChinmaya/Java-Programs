@@ -9,8 +9,11 @@ public class MergeSort {
         if(a.length == 1)return;
         int[] left = new int[a.length/2];
         int[] right=new int[a.length-left.length];
+
         for(int i=0; i<left.length; i++) left[i]=a[i];
+
         for(int j=0; j<right.length; j++) right[j]=a[left.length + j];
+        
         sort(left);
         sort(right);
         merge(left,right,a);
