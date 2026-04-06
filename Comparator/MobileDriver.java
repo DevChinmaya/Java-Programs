@@ -3,22 +3,22 @@ import java.util.Scanner;
 public class MobileDriver {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        // Mobile m1=new Mobile("Iphone","Space Black",150000,12,1024);
-        // Mobile m2=new Mobile("Samsung","White",125000,16,256);
-        // Mobile m3=new Mobile("Oppo","Pink",20000,8,128);
-        // Mobile m4=new Mobile("Realme","Orange",22000,12,128);
-        // Mobile m5=new Mobile("Google","Obsedian",70000,12,512);
+        Mobile m1=new Mobile("Iphone","Space Black",150000,12,1024);
+        Mobile m2=new Mobile("Samsung","White",125000,16,256);
+        Mobile m3=new Mobile("Oppo","Pink",20000,8,128);
+        Mobile m4=new Mobile("Realme","Orange",22000,12,128);
+        Mobile m5=new Mobile("Google","Obsedian",70000,12,512);
 
-        System.out.print("Enter number of products u want to add:");
-        Mobile m[]=new Mobile[sc.nextInt()];
-        System.out.println("Enter in this following order: name->color->price->ram->rom \n");
-        for(int i=0; i<m.length; i++){
-            m[i]=new Mobile(sc.next(),sc.next(),sc.nextDouble(),sc.nextInt(),sc.nextInt());
-            System.out.println("---------------------------");
-        }
-        for(Mobile z:m) System.out.println(z);
+        // System.out.print("Enter number of products u want to add:");
+        // Mobile m[]=new Mobile[sc.nextInt()];
+        // System.out.println("Enter in this following order: name->color->price->ram->rom \n");
+        // for(int i=0; i<m.length; i++){
+        //     m[i]=new Mobile(sc.next(),sc.next(),sc.nextDouble(),sc.nextInt(),sc.nextInt());
+        //     System.out.println("---------------------------");
+        // }
+        // for(Mobile z:m) System.out.println(z);
 
-        // Mobile m[]={m1,m2,m3,m4,m5};
+        Mobile m[]={m1,m2,m3,m4,m5};
 
         System.out.println("Select options according to which you want to sort.");
         System.out.println("1. Sort by color \n" 
