@@ -16,7 +16,7 @@ public class MergeSort {
         
         sort(left);
         sort(right);
-        merge(left,right,a);
+        merge(left,right,a);    
     }
     public static void merge(int[] a,int[] b,int[] c){
         int i=0,j=0,k=0;
