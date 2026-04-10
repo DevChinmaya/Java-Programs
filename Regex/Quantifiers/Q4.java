@@ -1,17 +1,14 @@
-
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-public class R1 {
+
+public class Q4 {
     public static void main(String[] args) {
-        String exp="aba";
-        String s="aababaabacdaba";
-        int count=0;
+        String exp="ab+";
+        String s="ababbabbba";
         Pattern p=Pattern.compile(exp);
         Matcher m=p.matcher(s);
-        while(m.find()){
+        while(m.find())
             System.out.println(m.group());
-            count++;
-        }
-        System.out.println(count);
+            
     }
 }
