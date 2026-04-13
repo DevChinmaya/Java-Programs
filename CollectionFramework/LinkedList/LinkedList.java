@@ -29,16 +29,13 @@ public class LinkedList {
         }
     }
     public Object get(int index){
+        if(index<0 || index>=size()){
+            throw new IndexOutOfBoundsException();
+        }
         Node curr=head;
-        int count=0;
-        if(index==0)return head;
-        while(curr!=null){
-            if(count==index){
-                return curr.ele;
-            }
-            count++;
+        for(int i=1; i<=index; i++){
             curr=curr.next;
         }
-        return 0;
+        return curr.ele;
     }
 }

@@ -7,6 +7,6 @@ public class UserProgram {
         l.add(40);
         l.add(50);
         //l.display();
-        System.out.println(l.get(4));
+        System.out.println(l.get(2));
     }
 }
