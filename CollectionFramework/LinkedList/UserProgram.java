@@ -6,7 +6,7 @@ public class UserProgram {
         l.add(30);
         l.add(40);
         l.add(50);
-        //l.display();
+        l.display();
         System.out.println(l.get(2));
     }
 }

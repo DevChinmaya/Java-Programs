@@ -1,7 +1,6 @@
 public class Node {
     Object ele;
     Node next;
-    Object prev;
     Node(Object ele){
         this.ele=ele;
     }
